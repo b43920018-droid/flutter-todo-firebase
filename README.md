@@ -1,16 +1,55 @@
-# todo_app
+# Flutter Todo App with Firebase
 
-A new Flutter project.
+A modern To-Do List application built with **Flutter** and **Firebase**.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- User Authentication (Login / Sign Up)
+- Real-time task management with Firebase Firestore
+- Custom categories with colors
+- Search & Filters (Completed / Incomplete / Category)
+- Task reminders
+- Clean UI with animations (Lottie)
+- State Management using Provider
 
-A few resources to get you started if this is your first Flutter project:
+## Tech Stack
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Flutter & Dart
+- Firebase Auth
+- Cloud Firestore
+- Provider (State Management)
+- Lottie Animations
+- Google Fonts
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Screenshots
+
+### Splash & Auth
+![Splash](splash_page.png)
+![Login](login_page.png)
+![Sign Up](sign_up_page.png)
+
+### Home & Tasks
+![Home](home_page.png)
+![Add Task](add_task_page.png)
+![Add Category](add_category_page.png)
+
+## How to Run
+
+1. Clone the repository:
+
+git clone https://github.com/bushra-devs/flutter-todo-firebase.git
+
+2. Open the project and run:
+
+flutter pub get  
+flutter run
+
+## Note
+
+Make sure to add your own `firebase_options.dart` and configure Firebase project.
+
+---
+
+Developed by [Bushra](https://github.com/bushra-devs)
+
+---
